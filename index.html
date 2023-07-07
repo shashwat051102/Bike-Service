@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratice 2</title>
+    <link rel="stylesheet" href="projects/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Aboreto', cursive;
+            color: white;
+            background: url(10844932.jpg);
+            height: 100px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .left{
+            position: absolute;
+            /* border: 2px solid red; */
+            display: inline-block;
+            left: 34px;
+            top: 10px;
+        }
+        .left img{
+            width: 160px;
+            
+
+        }
+        .left div{
+            text-align: center;
+            font-size: 20px;
+            font-family: 'Lobster', cursive;
+        }
+        .mid{
+            /* border: 2px solid yellow; */
+            display: block;
+            width: 50%;
+            margin: 10px auto;
+            top: 10px;
+            font-family: 'Aboreto', cursive;
+            
+        }
+
+        .right{
+            position: absolute;
+            /* border: 2px solid blue; */
+            display: inline-block;
+            right: 34px;
+            top: 10px;
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+        }
+        .navbar li a{
+            font-size: 20px;
+            text-decoration: none;
+            padding: 30px 20px;
+            color: white;
+        }
+        .navbar li a:hover, .navbar li a:active{
+            color: grey;
+            text-decoration: underline;
+        }
+        .btn{
+            background-color: rgb(7, 7, 7);
+            color: aliceblue;
+            border-radius: 10px;
+            margin: 0px 9px;
+            padding: 3px 12px;
+            border: 2px solid grey;
+            cursor: pointer;
+            text-align: center;
+            font-family: 'Aboreto', cursive;
+        }
+        .btn:hover{
+            background-color: rgb(74, 72, 72);
+        }
+        .container{
+            position: absolute;
+            /* border: 2px solid red; */
+           right: -26px;
+            display: inline-block;
+            top: 214px;
+            width: 37%;
+            margin: 50px 50px;
+            padding: 50px 50px;
+        }
+        .form-group input{
+            font-family: 'Aboreto', cursive;
+            width: 340px;
+            text-align: center;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+            border: 2px solid black;
+            display: block;
+            color: black;
+            align-items: center;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .form-group input:hover{
+            background-color: rgb(192, 191, 191);
+        }
+        .container button{
+            display: block;
+            width: 340px;
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images.png" alt="">
+            <div>Harsh automobiles</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Bike status</a></li>
+                <li><a href="#">contact us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Help?</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Get best service for your Bike</h1>
+        <form action="nothing">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Bike Model">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Problem">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Mobile Number">
+            </div>
+
+        </form>
+        <button class="btn">submit</button>
+
+    </div>
+</body>
+</html>
